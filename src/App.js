@@ -8,6 +8,8 @@ import Dashboard from "./Dashboard";
 function App() {
   return (
     <div className="app">
+      {/* Added welcome message */}
+      <h1>Welcome to the Application</h1>
       <Router>
         <Routes>
           <Route exact path="/" element={<Login />} />

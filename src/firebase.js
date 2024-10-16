@@ -21,7 +21,7 @@ import {
 const firebaseConfig = {
   apiKey: "AIzaSyDal3JJ3EBFXcKI2NN2M7BGC0ogvcsg5lw",
   authDomain: "is4301-b6fa1.firebaseapp.com",
-  projectId: "is4301-b6fa1",
+  projectId: "is4301-b6fa1", 
   storageBucket: "is4301-b6fa1.appspot.com",
   messagingSenderId: "709485561406",
   appId: "1:709485561406:web:af8a19b6ca3713be21f36f"
@@ -101,4 +101,5 @@ export {
   registerWithEmailAndPassword,
   sendPasswordReset,
   logout,
+  
 };
